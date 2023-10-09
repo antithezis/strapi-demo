@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_charts",
+  "info": {
+    "singularName": "data-chart",
+    "pluralName": "data-charts",
+    "displayName": "datachart",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "data": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
